@@ -12,3 +12,5 @@ test('test', async ({ page }) => {
   await page.locator('[data-test="login-button"]').click();
   await page.locator('[data-test="primary-header"] div').filter({ hasText: 'Swag Labs' }).first().click();
 });
+
+
